@@ -3,26 +3,14 @@ import 'src/';
 
 render(
   html`
-    <style>
-      html,
-      body {
-        height: 100%;
-      }
-      body {
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
-          'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      app-root {
-        width: 50%;
-      }
-    </style>
-    <app-root></app-root>
+    <link rel="stylesheet" href="//demo.productionready.io/main.css" />
+    <link href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <link
+      href="//fonts.googleapis.com/css?family=Titillium+Web:700|Source+Serif+Pro:400,700|Merriweather+Sans:400,700|Source+Sans+Pro:400,300,600,700,300italic,400italic,600italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <rwg-root></rwg-root>
   `,
   document.body,
 );

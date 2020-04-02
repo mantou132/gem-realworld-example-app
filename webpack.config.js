@@ -36,7 +36,9 @@ module.exports = {
   plugins: [
     new ManifestPlugin(),
     new CleanWebpackPlugin(),
-    new HtmlWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      title: 'Conduit',
+    }),
     new PreloadWebpackPlugin({
       rel: 'preload',
       include: 'initial',
