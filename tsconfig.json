@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "alwaysStrict": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "lib": ["es2020", "dom"],
+    "typeRoots": ["node_mobules/@types", "src/types"],
+    "paths": {
+      "src": ["src/*"]
+    }
+  },
+  "include": ["src"]
+}

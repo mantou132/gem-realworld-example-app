@@ -4,6 +4,9 @@
 /node_modules
 /bower_components
 
+# Compiler output
+/build/
+
 # IDEs and editors
 /.idea
 .project

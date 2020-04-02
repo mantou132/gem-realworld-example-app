@@ -6,9 +6,9 @@
 ### [Demo](https://github.com/gothinkster/realworld)&nbsp;&nbsp;&nbsp;&nbsp;[RealWorld](https://github.com/gothinkster/realworld)
 
 
-This codebase was created to demonstrate a fully fledged fullstack application built with **[YOUR_FRAMEWORK]** including CRUD operations, authentication, routing, pagination, and more.
+This codebase was created to demonstrate a fully fledged fullstack application built with **[Gem](https://github.com/mantou132/gem)** including CRUD operations, authentication, routing, pagination, and more.
 
-We've gone to great lengths to adhere to the **[YOUR_FRAMEWORK]** community styleguides & best practices.
+We've gone to great lengths to adhere to the **[Gem](https://github.com/mantou132/gem)** community styleguides & best practices.
 
 For more information on how to this works with other frontends/backends, head over to the [RealWorld](https://github.com/gothinkster/realworld) repo.
 
@@ -19,5 +19,13 @@ For more information on how to this works with other frontends/backends, head ov
 
 # Getting started
 
-> npm install, npm start, etc.
+```bash
+# install dependencies
+npm i
+# development
+npm start
+# build project
+npm run build
+```
+
 
